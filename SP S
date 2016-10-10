@@ -1,0 +1,311 @@
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
+<sportsdevil>http://nowwatchtvlive.co/sport-tv1-em-direto-gratis-sport-tv1-portugal-live-stream-online/</sportsdevil>
+<referer>http://nowwatchtvlive.co</referer>
+</item>
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
+<sportsdevil>http://nowwatchtvlive.co/sport-tv1-live-sport-tv1-slovenia-free-sport-tv1-watch-sport-tv1/</sportsdevil>
+<referer>http://nowwatchtvlive.co</referer>
+</item>
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] BTV  [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>https://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>                      
+<sportsdevil>http://cxtv.biz/tvonline/canal/btv1hd.html</sportsdevil>
+<referer>http://cxtv.biz/</referer>
+</item>
+
+
+
+
+
+
+
+
+       <item> 
+            <title>[COLOR lime] • [COLOR white][B][I]REVISAO CANAIS 23/8/2016[/I][/B][/COLOR]</title> 
+   <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
+</item>       
+
+
+
+<item>  
+<title>[COLOR=white][B][I] SPORTV 1 [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>$doregex[get-rtmp]/privatestream/ app=privatestream/ playpath=$doregex[path] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=fawergge</link>
+<regex>
+<name>get-rtmp</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://privatestream.tv/player?streamname=fawergge'):
+ 
+ import requests
+ import re
+ 
+ 
+ source = requests.get(url)
+ var_a = re.findall('var a = (.*?);', source.text)[0]
+ var_b = re.findall('var b = (.*?);', source.text)[0]
+ var_c = re.findall('var c = (.*?);', source.text)[0]
+ var_d = re.findall('var d = (.*?);', source.text)[0]
+ var_f = re.findall('var f = (.*?);', source.text)[0]
+ 
+ a= int(float(var_a))/int(float(var_f))
+ b= int(float(var_b))/int(float(var_f))
+ c= int(float(var_c))/int(float(var_f))
+ d= int(float(var_d))/int(float(var_f))
+ 
+ rtmp = 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d)
+ return rtmp
+ 
+ 
+]]></expres>
+<page></page>
+</regex>
+ 
+<regex>
+<name>path</name>
+<expres>privatestream\/(.*?)';</expres>
+<page>http://privatestream.tv/player?streamname=fawergge</page>
+<referer>http://privatestream.tv/</referer>
+<agent></agent>
+</regex><thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
+</item>
+<item>  
+<title>[COLOR=white][B][I] SPORTV 1[/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>rtmp://31.220.40.63/privatestream/ app=privatestream/ playpath=fawergge?keys=SV_LwvATKH5Cin2z5vmXJQ&keyt=1470488331 swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=fawergge</link>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
+</item>
+<item>  
+<title>[COLOR=white][B][I] SPORTV 1[/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>rtmp://185.80.220.79:17045/stream/ playPath=EuxBo1519y0yBoPCYoiaN.stream?r3153i948lr3153i948lr8859i8842tr814i282br814i282br814i282br734i3360pr8842a814k swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2022,0,0,209 timeout=10 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t7170i50lt7170i50lt1148i6896tt132i151bt132i151bt132i151bt721i868pt6896a132k&st=m4m466n4w574x2s2f436q24693u5s39385v5f454i3s233d444b403z3z2w23403t2&adx=&stream=3474a454l5l574s2c4i5z2k5v2i5x2n2o416u4a3f4w21374f476w226d3j415d3x3i4c4i5k3y33343z3u2a43494a4q2x274z3b306r4l4n4r2845433t4o2w4e3x525p414s5g454x3b3k4j4f4m5a20594f4e5j4r5y32456p2o234z37494s294b46494l5b413v2w2y2o5b464c4g5y2w284c403t2u28484g553b4343434242434p2o234z3n2&sooor=OQ==&str=is&ok=&cat=3&link=1&idom=firstrowas.co</link>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
+</item>
+<item>  
+<title>[COLOR=white][B][I] SPORTV 1[/I][/B][/COLOR][COLOR=green][B][I]SD [/I][/B][/COLOR]</title>
+<link>rtmp://179.43.158.195:16625/stream/ playPath=EuxPCYoiaN.stream?t4131a662kt725i225rt34i7438nt4131a662kt725i622kt725i225rt4131a662kt725i225rt231i9104pt4131a662kt34i7438nt725i225r swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2021,0,0,242 timeout=10 live=1 pageUrl=rtmp://209.95.56.160:14819/stream/ playPath=NBo1519y0yBodTaX9Epd0.stream?r7246i894lr7246i894lr3426i1232tr432i879br432i879br432i879br69i5773pr1232a432k swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2022,0,0,209 timeout=10 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t7817i534lt7817i534lt5585i2376tt938i851bt938i851bt938i851bt817i8037pt2376a938k&st=04o205n4w574x2s2f436q24693u5c4q3g58533d3g4b4w234d4d4u264z2q294y2q2x2s2&adx=&stream=i554f4n5j5l50394o5546434z2a403n22434o3a3f4w21374f476w226d3j4l5u354v303q4i4h5w2u284w244a49444w2v24484r204q224q383u554z2t2x2w4w276o4x5c41584w3e4f3k474j2m4i4t5k4e4l3o3j5n5i506d4k23416n204o204z27464h5b4v264w24394l5949434x2x2k5y2s2r2x2a434h5x21314q2e4e484n5p2o234z3n204o204t2&sooor=Ng==&str=is&ok=&cat=3&link=1&idom=firstrowas.co</link>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail> 
+</item>
+
+
+
+
+<item>  
+<title>[COLOR=white][B][I] SPORTV 2 [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>http://cdn.widestream.io:8081/shareedge/push-merda2-zctvt/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDE2IDEwOjM3OjM2IFBNJmhhc2hfdmFsdWU9b1hXcjh6WElveHcyS0k2aFlhRVBaUT09JnZhbGlkbWludXRlcz0yMA==|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36</link>
+<thumbnail>http://s20.postimg.org/5p0enra65/sporttv2.png</thumbnail> </item>
+
+
+
+<item>  
+<title>[COLOR=white][B][I] SPORTV 2 [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>rtmp://179.43.158.195:16625/stream/ playPath=0qZjb9kndn.stream?t1690a933kt757i5638rt333i5469nt1690a933kt757i529kt757i5638rt1690a933kt757i5638rt757i5638rt711i933yt711i933y swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2021,0,0,242 timeout=10 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t9637a254kt604i202rt736i1207nt9637a254kt604i831kt604i202rt9637a254kt604i202rt604i202rt186i254yt186i254y&st=14i4c5n4w5c4t2s4643683u5d4h553d4t5k5k4p2p243z244746453z3w213e4s203z2&adx=&stream=a4v2l5e494o5w2646424843474a4x2n234x504a3f413x2766476e3s5h464e4h4i474h424r2a4z2v224p2f43464f413p2e4a4n234k495e3h49454v4s2p4d3n4s5k5f4j4r5b4k2m4m4k4f484p3p3e5e4a4v5a4z3244634p2o23484r2k5w2a4037434a4y2546403a474j5o5e44413y2j5a48474r284t284e42354m234242434p2o234z3&sooor=MTM=&str=is&ok=&cat=3&link=1&idom=firstrowas.co</link>
+<thumbnail>http://s20.postimg.org/5p0enra65/sporttv2.png</thumbnail> </item>
+
+<item>  
+<title>[COLOR=white][B][I] SPORTV 3 [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>http://cdn.widestream.io:8081/shareedge/push-merda3-0zvdq/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDE2IDEwOjM5OjMyIFBNJmhhc2hfdmFsdWU9Wnlnb0hQWFNOcXhaaDVjbWx1TUFGZz09JnZhbGlkbWludXRlcz0yMA==|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36</link>
+<thumbnail>http://s20.postimg.org/gee3g0lz1/sporttv3.png</thumbnail> </item>
+
+
+
+<item>  
+<title>[COLOR=white][B][I] SPORTV 3 [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>rtmp://179.43.158.195:16625/stream/ playPath=o4NLATkOb3.stream?t5651a791kt952i1130rt838i6407nt5651a791kt952i646kt952i1130rt5651a791kt952i1130rt952i1130rt384i791yt384i791y swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2021,0,0,242 timeout=10 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t1692a262kt907i9535rt726i2985nt1692a262kt907i481kt907i9535rt1692a262kt907i9535rt907i9535rt572i262yt572i262y&st=s5t205n4w5c4t2s4643683u5j3k4w3d4y4i5x2p2p243z244746453z3w213e4s203z2&adx=&stream=h5v2b4e4k574v244d47444l5t2j5b4n2u584o3a3f413x2766476e3s5n39355h4n354u224r2a4z2v224p2f43464f413p2e4a4n2u5v2x4e3h49454v4s2p4d3n4y4n465j4w494k2m4m4k4f484p3p3e5e4a4v5a4z3244634p2o234a4w264z27433x2i544c40344c4c4o5e4b4b484b4t2e4b464w28464445413b474m234242434p2o234z3&sooor=Ng==&str=is&ok=&cat=3&link=1&idom=firstrowas.co</link>
+<thumbnail>http://s20.postimg.org/gee3g0lz1/sporttv3.png</thumbnail> </item>
+
+
+<item>
+<title>[COLOR=white][B][I] SPORTV 4 [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>rtmp://179.43.158.197:14368/stream/ playPath=0tkBo1519y0yBoVGgd2jl.stream?r8244i303lr47i148yr3112a148kr303i8244nr8244i303lr5050i85mr5050i3112tr148i348br47i148yr5050i3112t swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2022,0,0,192 timeout=10 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t9205i775lt833i813yt4438a813kt775i9205nt9205i775lt2913i720mt2913i4438tt813i173bt833i813yt2913i4438t&st=14l4t5n4w574x2s2f436q24693u5y3d3m5k5w2e4c4s233e44474z284t2u2a4y2q2z2w2&adx=&stream=h564f4d4a4o574z2e4k554h5644494n23406h4a3f4w21374f476w226d3j475h3b474t2r5e4y33353z3q294c43484x2v244a4v204r2z5j483u554z2t2x2w4w276o4x5y3o4e48474g4k283j4x5e4i5g2w3e574j5z5q5z3p2q434z3n20484l5z274i574a464u243z2n5n5l553i543s27433t27494c44464w2d464s2m5n52434p2o234z3n204o2&sooor=Mw==&str=is&ok=&cat=3&link=1&idom=firstrowas.co</link>
+<thumbnail>http://s20.postimg.org/jjyp684l9/sporttv4.png</thumbnail> </item>
+
+
+
+
+<item>
+<title>[COLOR=white][B][I] SPORTV 4 [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>rtmp://179.43.158.195:16625/stream/ playPath=0tkVGgd2jl.stream?t2466a617kt260i6714rt408i3422nt2466a617kt260i628kt260i6714rt2466a617kt260i6714rt260i6714rt409i617yt409i617y swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN/2021,0,0,242 timeout=10 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t6617a936kt734i9934rt457i2946nt6617a936kt734i722kt734i9934rt6617a936kt734i9934rt734i9934rt494i936yt494i936y&st=14l4t5n4w5c4t2s4643683u5t3q4f46454q5i4p2p243z244746453z3w213e4s203z2&adx=&stream=i574j564c4k5w254645434b444h5c4n23406h4a3f413x2766476e3s5x3f3o5a4u2d4f424r2a4z2v224p2f43464f413p2e4a4n234n4q5e3h49454v4s2p4d3n485t4p5c434h4k2m4m4k4f484p3p3e5e4a4v5a4z3244634p2o23434u2c4z2h5x2q2l554b45434d403b4l5n5438433z2d4c4u2y284n5x284y233i5m234242434p2o234z3&sooor=NA==&str=is&ok=&cat=3&link=1&idom=firstrowas.co</link>
+<thumbnail>http://s20.postimg.org/jjyp684l9/sporttv4.png</thumbnail> </item>
+
+
+<item>  
+<title>[COLOR=white][B][I] SPORTV 5 [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title>
+<link>http://cdn.widestream.io:8081/shareedge/push-merda4-rp4un/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yOS8yMDE2IDEwOjQzOjU0IFBNJmhhc2hfdmFsdWU9SEhDSExMZ2NnOFNacTUyUGJyeDFVdz09JnZhbGlkbWludXRlcz0yMA==|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36</link>
+<thumbnail>http://s20.postimg.org/c6jb79kjh/sporttv5.png</thumbnail> </item>
+
+
+
+
+<item>  
+<title>[COLOR=white][B][I] SPORTV 5 [/I][/B][/COLOR][COLOR green](SD)[/COLOR]</title> 
+<link>$doregex[file]|User-Agent=Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36</link>
+<regex>
+<name>file</name>
+<expres>file: "(.*?)"</expres>
+<page>http://sharecast.eu/embed/merda4-rp4un</page>
+<referer>http://sharecast.eu/embed/merda4-rp4un</referer>
+<thumbnail>http://s20.postimg.org/c6jb79kjh/sporttv5.png</thumbnail> 
+</regex>
+</item>
+
+<item>  
+<title>[COLOR=white][B][I] BENFICA TV [/I][/B][/COLOR][COLOR=green][B][I]SD[/I][/B][/COLOR]</title> 
+<link>$doregex[get-rtmp]/privatestream/ app=privatestream/ playpath=$doregex[path] swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=gergtrg</link>
+<regex>
+<name>get-rtmp</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://privatestream.tv/player?streamname=gergtrg'):
+ 
+ import requests
+ import re
+ 
+ 
+ source = requests.get(url)
+ var_a = re.findall('var a = (.*?);', source.text)[0]
+ var_b = re.findall('var b = (.*?);', source.text)[0]
+ var_c = re.findall('var c = (.*?);', source.text)[0]
+ var_d = re.findall('var d = (.*?);', source.text)[0]
+ var_f = re.findall('var f = (.*?);', source.text)[0]
+ 
+ a= int(float(var_a))/int(float(var_f))
+ b= int(float(var_b))/int(float(var_f))
+ c= int(float(var_c))/int(float(var_f))
+ d= int(float(var_d))/int(float(var_f))
+ 
+ rtmp = 'rtmp://' + str(a) + '.' + str(b) + '.' + str(c) + '.' + str(d)
+ return rtmp
+ 
+ 
+]]></expres>
+<page></page>
+</regex>
+ 
+<regex>
+<name>path</name>
+<expres>privatestream\/(.*?)';</expres>
+<page>http://privatestream.tv/player?streamname=gergtrg</page>
+<referer>http://privatestream.tv/</referer>
+<agent></agent>
+</regex>
+<thumbnail>http://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>
+</item> 
+
+
+
+<item> 
+            <title>[COLOR lime] • [COLOR white][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](SPORTSDEVILL)[/COLOR]</title> 
+   <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
+<thumbnail>https://s20.postimg.org/tfr3lap19/sport1_de.jpg</thumbnail>
+</item>  
+<item>
+<title>[COLOR white][B][I]BOLA TV [/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title>
+<sportsdevil>http://www.tvdez.com/embed.php?c=abolatv</sportsdevil>
+<referer>http://www.tvdez.com/</referer>
+<thumbnail>http://s20.postimg.org/u3s3bcbb1/a_bola_tv.jpg</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 1 [/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title>
+<sportsdevil>http://www.europeu2016.net/index.php?canal=sporttv</sportsdevil><referer>http://www.europeu2016.net</referer>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail></item>
+<item
+<title>[COLOR white][B][I]Sporttv 1[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://www.sporttvsonline.com/index.php?canal=sporttv</sportsdevil><referer>http://www.sporttvsonline.com</referer>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 1[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://firstrowsports.ge/?watch/408917/1/watch-xonetv.html</sportsdevil><referer>http://firstrowsports.ge/</referer>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 1[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title>
+<sportsdevil>http://firstrowas.co///embed/NdTaX9Epd0</sportsdevil>
+<referer>http://firstrowas.co/</referer>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 2[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://www.sporttvsonline.com/index.php?canal=sporttv2</sportsdevil><referer>http://www.sporttvsonline.com</referer>
+<thumbnail>http://s20.postimg.org/5p0enra65/sporttv2.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 2 [/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://www.europeu2016.net/index.php?canal=sporttv2</sportsdevil><referer>http://www.europeu2016.net</referer>
+<thumbnail>http://s20.postimg.org/5p0enra65/sporttv2.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 2[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title<sportsdevil>http://firstrowsports.ge/?watch/408917/2/watch-xonetv.html</sportsdevil><referer>http://firstrowsports.ge/</referer>
+<thumbnail>http://s20.postimg.org/5p0enra65/sporttv2.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 3 [/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://www.europeu2016.net/index.php?canal=sporttv3</sportsdevil><referer>http://www.europeu2016.net</referer>
+<thumbnail>http://s20.postimg.org/gee3g0lz1/sporttv3.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 3[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://cdn2.zuuk.org/sporttv3.php</sportsdevil><referer>http://cdn2.zuuk.org/</referer>
+<thumbnail>http://s20.postimg.org/gee3g0lz1/sporttv3.png</thumbnail><item><title>[COLOR white][B][I]Sporttv 3[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://firstrowsports.ge/?watch/408917/3/watch-xonetv.html</sportsdevil><referer>http://firstrowsports.ge/</referer>
+<thumbnail>http://s20.postimg.org/gee3g0lz1/sporttv3.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 4[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://firstrowsports.ge/?watch/408917/4/watch-xonetv.html</sportsdevil><referer>http://firstrowsports.ge/</referer>
+<thumbnail>http://s20.postimg.org/jjyp684l9/sporttv4.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 4[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title>
+<sportsdevil>http://www.sporttvsonline.com/index.php?canal=sporttv4</sportsdevil>
+<referer>http://www.sporttvsonline.com/</referer>
+<thumbnail>http://s20.postimg.org/jjyp684l9/sporttv4.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 4[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title<sportsdevil>http://www.desportonline.net/index.php?canal=sporttv4-2</sportsdevil>
+<referer>http://www.desportonline.net/</referer>
+<thumbnail>http://s20.postimg.org/jjyp684l9/sporttv4.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 5[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://www.europeu2016.net/index.php?canal=sporttv4</sportsdevil><referer>http://www.europeu2016.net</referer>
+<thumbnail>http://s20.postimg.org/c6jb79kjh/sporttv5.png</thumbnail></item>
+<item<title>[COLOR white][B][I]Sporttv 5[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title<sportsdevil>http://www.desportonline.net/index.php?canal=sporttv4</sportsdevil><referer>http://www.desportonline.net/</referer>
+<thumbnail>http://s20.postimg.org/c6jb79kjh/sporttv5.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]Sporttv 5 [/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://www.europeu2016.net/index.php?canal=sporttv5</sportsdevil><referer>http://www.europeu2016.net</referer>
+<thumbnail>http://s20.postimg.org/c6jb79kjh/sporttv5.png</thumbnail></item>
+<item<title>[COLOR white][B][I]Sporttv 5[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title<sportsdevil>http://firstrowsports.ge/?watch/408917/5/watch-xonetv.html</sportsdevil><referer>http://firstrowsports.ge/</referer>
+<thumbnail>http://s20.postimg.org/c6jb79kjh/sporttv5.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]BENFICA TV[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title
+<sportsdevil>http://firstrowas.co///embed/9DOXhIxxsw</sportsdevil>
+<referer>http://mytvfree4.me/</referer>
+<referer>http://firstrowas.co/</referer>
+<thumbnail>http://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>
+</item><item>
+<title>[COLOR white][B][I]BENFICA TV[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title><sportsdevil>http://www.sporttvsonline.com/index.php?canal=benficatv</sportsdevil><referer>http://firstrowsports.ge/</referer>
+<thumbnail>http://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>
+</item>
+<item>
+<title>[COLOR white][B][I]BENFICA TV[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title<sportsdevil>http://tvtoss.com/channel-frames/Benfica TV/benficatv-server-1.php</sportsdevil>
+<referer>http://tvtoss.com/channel-frames/Benfica TV/</referer>
+<thumbnail>http://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>
+</item>
+<item>
+<title>[COLOR white][B][I]BENFICA TV2[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title
+<sportsdevil>http://www.sporttvsonline.com/index.php?canal=benficatv-2</sportsdevil>
+<referer>http://www.sporttvsonline.com/</referer>
+<thumbnail>http://s20.postimg.org/u2u3hnhvh/btv2_ver1.png</thumbnail></item>
+<item>
+<title>[COLOR white][B][I]SPORTING TV[/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title
+<sportsdevil>http://antena.mytvfree4.me/sporcanal.php</sportsdevil>
+<referer>http://mytvfree4.me/</referer>
+<thumbnail>http://s20.postimg.org/j0p0j7nst/sporting_tv_pt.png</thumbnail></item>
+
+<item>
+<title>[COLOR white][B][I]cmtv [/I][/B][/COLOR] [COLOR lime](Sports Devil)[/COLOR]</title>
+<sportsdevil>http://www.tvdez.com/embed.php?c=cmtv</sportsdevil>
+<referer>http://www.tvdez.com/</referer>
+<thumbnail>http://s20.postimg.org/u3s3bcbb1/a_bola_tv.jpg</thumbnail></item>
+
+
+<item> 
+<title>[COLOR lime] • [COLOR white][B][I]DESPORTO NACIONAL[/I][/B][/COLOR][COLOR red](ACESTREAM)[/COLOR]</title> 
+   <link>plugin://plugin.video.f4mTester/?url=http://185.73.239.23:8000/live/ESSL/GHGFNBVUD286/2615.ts&amp;streamtype=TSDOWNLOADER&amp;name=PT: RTP1</link>                
+<thumbnail>https://s20.postimg.org/tfr3lap19/sport1_de.jpg</thumbnail>
+</item>  
+<item>
+<title>[COLOR=white][B][I]Sporttv 1[/I][/B][/COLOR][COLOR orange](Acestream)[/COLOR]</title>
+<link>plugin://program.plexus/?url=359a65b9d81e5bf1eaaa8467fd888e08152dc5be&amp;mode=1&amp;name=SPORT TV 1</link>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
+</item><item>
+<title>[COLOR=white][B][I]Sporttv 1ALTERNATIVA[/I][/B][/COLOR][COLOR orange](Acestream)[/COLOR]</title>
+<link>plugin://program.plexus/?url=54967f21ecb7841523065a087c2c35d16e7d2e2e&amp;mode=1&amp;name=SPORT TV 1</link>
+<thumbnail>http://s20.postimg.org/odduxcbp9/sporttv1.png</thumbnail>
+</item>
