@@ -2,7 +2,15 @@
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]</title>
 <fanart></fanart>                        
 <thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
-<sportsdevil>http://skatv.net/sport-tv1//</sportsdevil>
+<sportsdevil>http://skatv.net/sport-tv1/</sportsdevil>
+<referer>http://skatv.net/</referer>
+</item>
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
+<sportsdevil>http://skatv.net/sport-tv1/</sportsdevil>
 <referer>http://skatv.net/</referer>
 </item>
 
