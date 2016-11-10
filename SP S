@@ -52,6 +52,14 @@
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 2 [/COLOR][/B]</title>
 <fanart></fanart>                        
 <thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
+<sportsdevil>http://www.netplayer.pt/sportv2.php</sportsdevil>
+<referer>http://www.netplayer.pt/</referer>
+</item>
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 2 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
 <sportsdevil>http://www.europeu2016.net/index.php?canal=sporttv2</sportsdevil>
 <referer>http://www.europeu2016.net/</referer>
 </item>
@@ -64,12 +72,29 @@
 <referer>http://nowwatchtvlive.co/</referer>
 </item>
 
+
 <item>                        
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 3 [/COLOR][/B]</title>
 <fanart></fanart>                        
 <thumbnail>http://www.satfrequency.com/wp-content/uploads/ktz/Sport-TV-3-HD-Satellite-2yze6ql8o58qc69amcdhxm.png</thumbnail>                      
-<sportsdevil>http://nowwatchtvlive.co/sport-tv3-em-direto-gratis-sport-tv3-portugal-live-stream-online//</sportsdevil>
+<sportsdevil>http://www.netplayer.pt/sportv3.php</sportsdevil>
+<referer>http://www.netplayer.pt/</referer>
+</item>
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 3 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://www.satfrequency.com/wp-content/uploads/ktz/Sport-TV-3-HD-Satellite-2yze6ql8o58qc69amcdhxm.png</thumbnail>                      
+<sportsdevil>http://nowwatchtvlive.co/sport-tv3-em-direto-gratis-sport-tv3-portugal-live-stream-online/</sportsdevil>
 <referer>http://nowwatchtvlive.co/</referer>
+</item>
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 4 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://www.thelogodb.com/images/media/logo/vtxqpw1436886719.png</thumbnail>                      
+<sportsdevil>http://www.netplayer.pt/sportv4.php</sportsdevil>
+<referer>http://www.netplayer.pt/</referer>
 </item>
 
 <item>                        
@@ -78,6 +103,15 @@
 <thumbnail>http://www.thelogodb.com/images/media/logo/vtxqpw1436886719.png</thumbnail>                      
 <sportsdevil>http://nowwatchtvlive.co/sport-tv4-em-direto-gratis-sport-tv-4-portugal-live-stream-online/</sportsdevil>
 <referer>http://nowwatchtvlive.co/</referer>
+</item>
+
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 5 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://www.thelogodb.com/images/media/logo/ruyqvt1436886834.png</thumbnail>                      
+<sportsdevil>http://www.netplayer.pt/sportv5.php</sportsdevil>
+<referer>http://www.netplayer.pt/</referer>
 </item>
 
 <item>                        
