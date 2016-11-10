@@ -2,6 +2,16 @@
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]</title>
 <fanart></fanart>                        
 <thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
+<sportsdevil>http://skatv.net/sport-tv1//</sportsdevil>
+<referer>http://skatv.net/</referer>
+</item>
+
+
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
 <sportsdevil>http://tvtrata.com/2016/10/21/sport-tv1/</sportsdevil>
 <referer>http://tvtrata.com/</referer>
 </item>
@@ -71,6 +81,23 @@
 <referer>http://nowwatchtvlive.co/</referer>
 </item>
 
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] BTV  [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>https://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>                      
+<sportsdevil>http://skatv.net/benfica-tv/</sportsdevil>
+<referer>http://skatv.net/</referer>
+</item>
+
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] BTV  [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>https://s20.postimg.org/eve3xaq0t/btv1_ver1.png</thumbnail>                      
+<sportsdevil>http://skatv.net/benfica-tv-stream2/</sportsdevil>
+<referer>http://skatv.net/</referer>
+</item>
 
 
 <item>                        
