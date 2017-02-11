@@ -13,15 +13,10 @@
 
 <item>
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] BTV *[/COLOR][/B]</title>
-<link>http://tvdasogra.com:8880/live/carvalhorodriguess/082279/502.m3u8</link>
+<link>http://sharecast.eu/embed/btv-md504</link>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/btv1.png</thumbnail>
 </item>
 
-<item>
-<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] BTV HD *[/COLOR][/B]</title>
-<link>http://tvdasogra.com:8880/live/carvalhorodriguess/082279/558.m3u8</link>
-<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/btv1.png</thumbnail>
-</item>
 
 <item>                        
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 [/COLOR][/B]</title>
@@ -45,11 +40,16 @@
 
 <item>
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 1 *[/COLOR][/B]</title>
-<link>http://tvdasogra.com:8880/live/carvalhorodriguess/082279/517.m3u8</link>
+<link>http://sharecast.eu/embed/live1-rbi6c</link>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/sportv1.png</thumbnail>
 </item>
 
 
+<item>
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 2 *[/COLOR][/B]</title>
+<link>http://sharecast.eu/embed.php?ch=live2-bipmr</link>
+<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>
+</item>
 
 <item>                        
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 2 [/COLOR][/B]</title>
@@ -126,6 +126,11 @@
 <thumbnail>https://cld.pt/dl/download/11638f9c-9197-4125-92c9-37a0fb96b182/sporttv.png</thumbnail>
 </item>
 
+<item>
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 5 *[/COLOR][/B]</title>
+<link>http://sharecast.eu/embed/live4-w04by</link>
+<thumbnail>http://www.thelogodb.com/images/media/logo/ruyqvt1436886834.png</thumbnail>
+</item>
 
 <item>                        
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 5 [/COLOR][/B]</title>
