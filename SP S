@@ -58,6 +58,15 @@
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 2 [/COLOR][/B]</title>
 <fanart></fanart>                        
 <thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
+<sportsdevil>http://www.liveonlinetv247.info/embed/sporttv2.php?width=650&height=480</sportsdevil>
+<referer>http://www.liveonlinetv247.info/</referer>
+</item>
+
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 2 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://futebolportugal.com/wp-content/uploads/sportv.png</thumbnail>                      
 <sportsdevil>http://www.netplayer.pt/sportv2.php</sportsdevil>
 <referer>http://www.netplayer.pt/</referer>
 </item>
@@ -89,6 +98,14 @@
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 3 [/COLOR][/B]</title>
 <fanart></fanart>                        
 <thumbnail>http://www.satfrequency.com/wp-content/uploads/ktz/Sport-TV-3-HD-Satellite-2yze6ql8o58qc69amcdhxm.png</thumbnail>                      
+<sportsdevil>http://www.liveonlinetv247.info/embed/sporttv3.php?width=650&height=480</sportsdevil>
+<referer>http://www.liveonlinetv247.info/</referer>
+</item>
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 3 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://www.satfrequency.com/wp-content/uploads/ktz/Sport-TV-3-HD-Satellite-2yze6ql8o58qc69amcdhxm.png</thumbnail>                      
 <sportsdevil>http://www.netplayer.pt/sportv3.php</sportsdevil>
 <referer>http://www.netplayer.pt/</referer>
 </item>
@@ -106,6 +123,17 @@
 <link>rtmpe://80.82.64.46/live?wmsAuthSign=c2VydmVyX3RpbWU9OC8xMi8yMDE2IDU6MjA6MTYgUE0maGFzaF92YWx1ZT10UGJZV2RyQkVCZG9kMTY3aGVRazl3PT0mdmFsaWRtaW51dGVzPTEw swfUrl=http://www.bigcast.us/myplayer/jwplayer.flash.swf pageUrl=http://www.bigcast.us/embed.php?v=bt3&vw=620&vh=490 playpath=Mnthnc9Pzr_3932 token=%XB00(nKH@#. token=%XB00(nKH@#.</link>
 <thumbnail>https://cld.pt/dl/download/11638f9c-9197-4125-92c9-37a0fb96b182/sporttv.png</thumbnail>
 </item>
+
+
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 4 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://www.thelogodb.com/images/media/logo/vtxqpw1436886719.png</thumbnail>                      
+<sportsdevil>http://www.liveonlinetv247.info/embed/sporttv4.php?width=650&height=480</sportsdevil>
+<referer>http://www.liveonlinetv247.info/</referer>
+</item>
+
 
 <item>                        
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 4 [/COLOR][/B]</title>
@@ -134,6 +162,16 @@
 <link>http://sharecast.eu/embed/live4-w04by</link>
 <thumbnail>http://www.thelogodb.com/images/media/logo/ruyqvt1436886834.png</thumbnail>
 </item>
+
+
+<item>                        
+<title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 5 [/COLOR][/B]</title>
+<fanart></fanart>                        
+<thumbnail>http://www.thelogodb.com/images/media/logo/ruyqvt1436886834.png</thumbnail>                      
+<sportsdevil>http://www.liveonlinetv247.info/embed/sporttv5.php?width=650&height=480</sportsdevil>
+<referer>http://www.liveonlinetv247.info/</referer>
+</item>
+
 
 <item>                        
 <title>[COLOR lawngreen][B]•[/B][/COLOR][COLOR white][B] SPORT TV 5 [/COLOR][/B]</title>
